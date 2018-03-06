@@ -1,6 +1,7 @@
 Filled container. 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Container contains 8 elements.
 =======
 Container contains 14 elements.
@@ -35,3 +36,5 @@ melting point = 69 °C
 >>>>>>> 2-3
 Empty container. 
 Container contains 0 elements.
+=======
+>>>>>>> 2-4

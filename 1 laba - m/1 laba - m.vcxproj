@@ -82,11 +82,15 @@
     <ClInclude Include="shape_atd.h" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClInclude Include="tetra_atd.h" />
 >>>>>>> 2-1
 =======
 >>>>>>> 2-3
+=======
+    <ClInclude Include="tetra_atd.h" />
+>>>>>>> 2-4
     <ClInclude Include="share_atd.h" />
   </ItemGroup>
   <ItemGroup>
@@ -96,11 +100,16 @@
     <ClCompile Include="shapes.cpp" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClCompile Include="tetras.cpp" />
 >>>>>>> 2-1
 =======
 >>>>>>> 2-3
+=======
+    <ClCompile Include="sort.cpp" />
+    <ClCompile Include="tetras.cpp" />
+>>>>>>> 2-4
     <ClCompile Include="shares.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

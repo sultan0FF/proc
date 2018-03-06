@@ -8,6 +8,7 @@ namespace simple_shapes {
   void In(box &r, ifstream &ist);
   void In(share  &t, ifstream &ist);
   void In(tetra  &f, ifstream &ist);
+
   // Ввод параметров обобщенной фигуры из файла
   shape* In(ifstream &ifst)
   {
@@ -36,12 +37,34 @@ namespace simple_shapes {
 		ifst >> sp->temp;
 		return sp;
 	}
-  }
 
   void Out(box &r, ofstream &ofst);
   void Out(share  &t, ofstream &ofst);
   void Out(tetra  &f, ofstream &ofst);
->>>>>>> 2-3
+
+
+  
+
+  double V(box &r);
+  double V(share &t);
+  double V(tetra &f);
+
+  // Вычисление обьема фигур
+
+  double V(shape &s)
+  {
+	  switch (s.k) {
+	  case shape::key::BOX:
+		  return V(s.r);
+	  case shape::key::SHERE:
+		  return V(s.t);
+	  case shape::key::TETRA:
+		  return V(s.t);
+	  default:
+		  return -1;
+	  }
+  }
+ 
 
   // Вывод параметров текущей фигуры в поток
   void Out(shape &s, ofstream &ofst) {

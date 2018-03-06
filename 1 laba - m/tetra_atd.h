@@ -1,4 +1,3 @@
-
 #pragma once
 #ifndef __tetra_atd__
 #define __tetra_atd__

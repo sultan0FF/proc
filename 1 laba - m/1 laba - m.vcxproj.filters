@@ -23,6 +23,7 @@
     </ClInclude>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClInclude Include="tetra_atd.h">
       <Filter>Заголовочные файлы</Filter>
@@ -30,6 +31,11 @@
 >>>>>>> 2-1
 =======
 >>>>>>> 2-3
+=======
+    <ClInclude Include="tetra_atd.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+>>>>>>> 2-4
     <ClInclude Include="box_atd.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
@@ -49,6 +55,7 @@
     </ClCompile>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="shares.cpp">
 =======
     <ClCompile Include="tetras.cpp">
@@ -56,11 +63,15 @@
 =======
     <ClCompile Include="shares.cpp">
 >>>>>>> 2-3
+=======
+    <ClCompile Include="tetras.cpp">
+>>>>>>> 2-4
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="boxes.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -70,5 +81,13 @@
 >>>>>>> 2-1
 =======
 >>>>>>> 2-3
+=======
+    <ClCompile Include="shares.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+>>>>>>> 2-4
   </ItemGroup>
 </Project>

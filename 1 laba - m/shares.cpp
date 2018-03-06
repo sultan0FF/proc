@@ -9,10 +9,16 @@ namespace simple_shapes {
   {
     ifst >> t.rad;
   }
+  // Вывод шара из потока
   void Out(share &t, ofstream &ofst)
   {
-    ofst << "It is Sphere: r = " 
+    ofst << "It is Shere: r = " 
       << t.rad << endl;
+  }
+  // Обьем 
+  double V(share &t)
+  {
+	  return ((t.rad * t.rad * t.rad * 3.14 * 4) / 3);
   }
 } // end simple_shapes namespace
 

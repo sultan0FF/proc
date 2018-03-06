@@ -5,10 +5,12 @@
 #include "share_atd.h"
 #include "tetra_atd.h"
 
+
 namespace simple_shapes {
   // структура, обобщающая все имеющиеся фигуры
   struct shape {
-    enum key {BOX, SHERE};
+    // значения ключей для каждой из фигур
+    enum key {BOX, SHERE, TETRA};
     key k; // ключ
 	int temp;
     // используемые альтернативы
