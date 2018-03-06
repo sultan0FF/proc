@@ -1,0 +1,26 @@
+Filled container. 
+Container contains 11 elements.
+0: It is Box: x = 3, y = 4, z = 5
+V = 60
+1: It is Shere: r = 7
+V = 1436.03
+2: It is Box: x = 15, y = 18, z = 25
+V = 6750
+3: It is Shere: r = 11
+V = 5572.45
+4: It is Box: x = 7, y = 8, z = 5
+V = 280
+5: It is Shere: r = 22
+V = 44579.6
+6: It is Box: x = 11, y = 17, z = 21
+V = 3927
+7: It is Box: x = 99, y = 78, z = 12
+V = 92664
+8: It is Tetraidr: a = 11
+V = 5572.45
+9: It is Tetraidr: a = 18
+V = 24416.6
+10: It is Tetraidr: a = 19
+V = 28716.3
+Empty container. 
+Container contains 0 elements.
