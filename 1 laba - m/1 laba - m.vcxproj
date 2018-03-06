@@ -80,6 +80,10 @@
     <ClInclude Include="conteiner.h" />
     <ClInclude Include="box_atd.h" />
     <ClInclude Include="shape_atd.h" />
+<<<<<<< HEAD
+=======
+    <ClInclude Include="tetra_atd.h" />
+>>>>>>> 2-1
     <ClInclude Include="share_atd.h" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +91,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="boxes.cpp" />
     <ClCompile Include="shapes.cpp" />
+<<<<<<< HEAD
+=======
+    <ClCompile Include="tetras.cpp" />
+>>>>>>> 2-1
     <ClCompile Include="shares.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
