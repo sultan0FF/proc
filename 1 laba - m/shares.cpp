@@ -20,5 +20,10 @@ namespace simple_shapes {
   {
 	  return ((t.rad * t.rad * t.rad * 3.14 * 4) / 3);
   }
+  void Out(share &t, ofstream &ofst)
+  {
+    ofst << "It is Sphere: r = " 
+      << t.rad << endl;
+  }
 } // end simple_shapes namespace
 

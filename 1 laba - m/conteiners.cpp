@@ -36,9 +36,7 @@ namespace simple_shapes {
 
   }
   // Сигнатуры требуемых внешних функций
-<<<<<<< HEAD
 
-=======
   void Out(shape &s, ofstream &ofst);
   double V(shape &s);
   bool Compare(shape *first, shape *second);
@@ -60,7 +58,7 @@ namespace simple_shapes {
 	  }
   }
   //-----------------------------------------------------
->>>>>>> 2-4
+
   void Out(shape &s, ofstream &ofst);
   // Вывод содержимого контейнера в указанный поток
   void Out(container &c, ofstream &ofst) 
@@ -71,12 +69,7 @@ namespace simple_shapes {
 	{
       ofst << i << ": ";
       Out(*(c.cont[i]), ofst);
-<<<<<<< HEAD
-=======
-	  ofst << "V = "
-		  << V(*(c.cont[i])) << endl;
-
->>>>>>> 2-4
+	  ofst << "V = "<< V(*(c.cont[i])) << endl;
     }
   }
 } // end simple_shapes namespace

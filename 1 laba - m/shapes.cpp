@@ -64,7 +64,25 @@ namespace simple_shapes {
 		  return -1;
 	  }
   }
- 
+
+    switch(k) {
+    case 1:
+      sp = new shape;
+      sp->k = shape::key::BOX;
+      In(sp->r, ifst);
+      return sp;
+    case 2:
+      sp = new shape;
+      sp->k = shape::key::SHERE;
+      In(sp->t, ifst);
+      return sp;
+    default:
+      return 0;
+    }
+  }
+
+  void Out(box &r, ofstream &ofst);
+  void Out(share  &t, ofstream &ofst);
 
   // Вывод параметров текущей фигуры в поток
   void Out(shape &s, ofstream &ofst) {
@@ -82,6 +100,7 @@ namespace simple_shapes {
       ofst << "Incorrect figure!" << endl;
     }
 	ofst << "Melting point = " << s.temp << " °C " << endl;
+    }
   }
 } // end simple_shapes namespace
 
