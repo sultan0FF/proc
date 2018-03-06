@@ -8,16 +8,14 @@
 namespace simple_shapes {
   // структура, обобщающая все имеющиеся фигуры
   struct shape {
-    // значения ключей для каждой из фигур
-    enum key {BOX, SHERE, TETRA};
-
+    enum key {BOX, SHERE};
     key k; // ключ
+	int temp;
     // используемые альтернативы
     union { // используем включение
       box r;
       share t;
 	  tetra f;
-
     };
   };
 } // end simple_shapes namespace

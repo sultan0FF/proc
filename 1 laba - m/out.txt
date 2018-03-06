@@ -1,5 +1,6 @@
 Filled container. 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Container contains 8 elements.
 =======
 Container contains 14 elements.
@@ -21,5 +22,16 @@ Container contains 14 elements.
 12: It is Tetraidr: a = 27
 13: It is Tetraidr: a = 50
 >>>>>>> 2-1
+=======
+Container contains 4 elements.
+0: It is Box: x = 3, y = 4, z = 5
+melting point = 78 °C 
+1: It is Sphere: r = 7
+melting point = 1890 °C 
+2: It is Box: x = 15, y = 18, z = 25
+melting point = 122 °C 
+3: It is Sphere: r = 11
+melting point = 69 °C 
+>>>>>>> 2-3
 Empty container. 
 Container contains 0 elements.

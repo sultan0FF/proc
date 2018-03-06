@@ -1,13 +1,21 @@
 ﻿  shares.cpp
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2-3
   shapes.cpp
   boxes.cpp
   main.cpp
   conteiners.cpp
   Создание кода...
+<<<<<<< HEAD
   1 laba - m.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\1\1 laba - m\Debug\1 laba - m.exe
   1 laba - m.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\1\1 laba - m\Debug\1 laba - m.pdb (Full PDB)
 =======
   1 laba - m.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\2.1\1 laba - m\Debug\1 laba - m.exe
   1 laba - m.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\2.1\1 laba - m\Debug\1 laba - m.pdb (Full PDB)
 >>>>>>> 2-1
+=======
+  1 laba - m.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\2.3\1 laba - m\Debug\1 laba - m.exe
+  1 laba - m.vcxproj -> C:\Users\Sultan.off\Desktop\Матковский\2.3\1 laba - m\Debug\1 laba - m.pdb (Full PDB)
+>>>>>>> 2-3

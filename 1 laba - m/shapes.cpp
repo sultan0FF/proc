@@ -8,38 +8,40 @@ namespace simple_shapes {
   void In(box &r, ifstream &ist);
   void In(share  &t, ifstream &ist);
   void In(tetra  &f, ifstream &ist);
-
-
   // Ввод параметров обобщенной фигуры из файла
   shape* In(ifstream &ifst)
   {
     shape *sp;
     int k;
     ifst >> k;
-    switch(k) {
-    case 1:
-      sp = new shape;
-      sp->k = shape::key::BOX;
-      In(sp->r, ifst);
-      return sp;
-    case 2:
-      sp = new shape;
-      sp->k = shape::key::SHERE;
-      In(sp->t, ifst);
-      return sp;
+	switch (k) {
+	case 1:
+		sp = new shape;
+		sp->k = shape::key::BOX;
+		In(sp->r, ifst);
+		return sp;
+		break;
+	case 2:
+		sp = new shape;
+		sp->k = shape::key::SHERE;
+		In(sp->t, ifst);
+		return sp;
 	case 3:
-	  sp = new shape;
-	  sp->k = shape::key::TETRA;
-	  In(sp->f, ifst);
-	  return sp;
-    default:
-      return 0;
-    }
+		sp = new shape;
+		sp->k = shape::key::TETRA;
+		In(sp->f, ifst);
+		return sp;
+	default:
+		return 0;
+		ifst >> sp->temp;
+		return sp;
+	}
   }
 
   void Out(box &r, ofstream &ofst);
   void Out(share  &t, ofstream &ofst);
   void Out(tetra  &f, ofstream &ofst);
+>>>>>>> 2-3
 
   // Вывод параметров текущей фигуры в поток
   void Out(shape &s, ofstream &ofst) {
@@ -56,6 +58,7 @@ namespace simple_shapes {
     default:
       ofst << "Incorrect figure!" << endl;
     }
+	ofst << "Melting point = " << s.temp << " °C " << endl;
   }
 } // end simple_shapes namespace
 
