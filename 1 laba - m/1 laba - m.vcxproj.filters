@@ -50,5 +50,11 @@
     <ClCompile Include="shares.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+<<<<<<< HEAD
+=======
+    <ClCompile Include="sort.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+>>>>>>> 2-4
   </ItemGroup>
 </Project>

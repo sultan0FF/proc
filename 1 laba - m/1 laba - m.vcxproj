@@ -88,6 +88,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="boxes.cpp" />
     <ClCompile Include="shapes.cpp" />
+<<<<<<< HEAD
+=======
+    <ClCompile Include="sort.cpp" />
+>>>>>>> 2-4
     <ClCompile Include="tetras.cpp" />
     <ClCompile Include="shares.cpp" />
   </ItemGroup>

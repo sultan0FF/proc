@@ -45,6 +45,16 @@ namespace simple_shapes {
   double V(share &t);
   double V(tetra &f);
   // Вычисление обьема фигур
+
+
+  
+
+  double V(box &r);
+  double V(share &t);
+  double V(tetra &f);
+
+  // Вычисление обьема фигур
+
   double V(shape &s)
   {
 	  switch (s.k) {

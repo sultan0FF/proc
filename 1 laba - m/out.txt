@@ -1,4 +1,5 @@
 Filled container. 
+<<<<<<< HEAD
 Container contains 11 elements.
 0: It is Box: x = 3, y = 4, z = 5
 V = 60
@@ -24,3 +25,5 @@ V = 24416.6
 V = 28716.3
 Empty container. 
 Container contains 0 elements.
+=======
+>>>>>>> 2-4
