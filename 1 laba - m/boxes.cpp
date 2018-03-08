@@ -1,15 +1,12 @@
 #include <fstream>
 #include "box_atd.h"
-
 using namespace std;
 
 namespace simple_shapes 
 {
-
-
   void In(box &r, ifstream &ifst)
   {
-    ifst >> r.x >> r.y >> r.z;
+      ifst >> r.x >> r.y >> r.z;
   }
 
   void Out(box &r, ofstream &ofst) 

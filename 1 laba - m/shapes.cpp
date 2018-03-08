@@ -1,5 +1,6 @@
 #include <fstream>
 #include "shape_atd.h"
+#include "conteiner.h"
 
 using namespace std;
 
@@ -12,44 +13,40 @@ namespace simple_shapes {
   // Ввод параметров обобщенной фигуры из файла
   shape* In(ifstream &ifst)
   {
-    shape *sp;
-    int k;
-    ifst >> k;
-	switch (k) {
-	case 1:
-		sp = new shape;
-		sp->k = shape::key::BOX;
-		In(sp->r, ifst);
-		return sp;
-		break;
-	case 2:
-		sp = new shape;
-		sp->k = shape::key::SHERE;
-		In(sp->t, ifst);
-		return sp;
-	case 3:
-		sp = new shape;
-		sp->k = shape::key::TETRA;
-		In(sp->f, ifst);
-		return sp;
-	default:
-		return 0;
-		ifst >> sp->temp;
-		return sp;
-	}
-
+	  shape *sp;
+	  int k;
+	  ifst >> k;
+	  switch (k) {
+	  case 1:
+		  sp = new shape;
+		  sp->k = shape::key::BOX;
+		  In(sp->r, ifst);
+		  return sp;
+		  break;
+	  case 2:
+		  sp = new shape;
+		  sp->k = shape::key::SHERE;
+		  In(sp->t, ifst);
+		  return sp;
+	  case 3:
+		  sp = new shape;
+		  sp->k = shape::key::TETRA;
+		  In(sp->f, ifst);
+		  return sp;
+	  default:
+		  return 0;
+	  }
+		  ifst >> sp->temp;
+		  return sp;  
+  }
   void Out(box &r, ofstream &ofst);
   void Out(share  &t, ofstream &ofst);
   void Out(tetra  &f, ofstream &ofst);
-
-
-  
-
   double V(box &r);
   double V(share &t);
   double V(tetra &f);
 
-  // Вычисление обьема фигур
+  //// Вычисление обьема фигур
 
   double V(shape &s)
   {
@@ -59,30 +56,11 @@ namespace simple_shapes {
 	  case shape::key::SHERE:
 		  return V(s.t);
 	  case shape::key::TETRA:
-		  return V(s.t);
+		  return V(s.f);
 	  default:
 		  return -1;
 	  }
   }
-
-    switch(k) {
-    case 1:
-      sp = new shape;
-      sp->k = shape::key::BOX;
-      In(sp->r, ifst);
-      return sp;
-    case 2:
-      sp = new shape;
-      sp->k = shape::key::SHERE;
-      In(sp->t, ifst);
-      return sp;
-    default:
-      return 0;
-    }
-  }
-
-  void Out(box &r, ofstream &ofst);
-  void Out(share  &t, ofstream &ofst);
 
   // Вывод параметров текущей фигуры в поток
   void Out(shape &s, ofstream &ofst) {
@@ -102,6 +80,6 @@ namespace simple_shapes {
 	ofst << "Melting point = " << s.temp << " °C " << endl;
     }
   }
-} // end simple_shapes namespace
+ // end simple_shapes namespace
 
 

@@ -1,58 +1,75 @@
 Filled container. 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Container contains 8 elements.
-=======
-Container contains 14 elements.
->>>>>>> 2-1
-=======
-Container contains 8 elements.
->>>>>>> 2-5
-0: It is Box: x = 3, y = 4, z = 5
-1: It is Sphere: r = 7
-2: It is Box: x = 15, y = 18, z = 25
-3: It is Sphere: r = 11
-4: It is Box: x = 7, y = 8, z = 5
-5: It is Sphere: r = 22
-6: It is Box: x = 11, y = 17, z = 21
-7: It is Box: x = 99, y = 78, z = 12
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-8: It is Tetraidr: a = 11
-9: It is Tetraidr: a = 18
+Container contains 16 elements.
+0: It is Box: x = 99, y = 78, z = 12
+Melting point = -842150451 °C 
+V = 92664
+1: It is Sphere: r = 22
+Melting point = -842150451 °C 
+V = 44579.6
+2: It is Tetraidr: a = 50
+Melting point = -842150451 °C 
+V = 22500
+3: It is Box: x = 15, y = 18, z = 25
+Melting point = -842150451 °C 
+V = 6750
+4: It is Box: x = 15, y = 18, z = 25
+Melting point = -842150451 °C 
+V = 6750
+5: It is Sphere: r = 11
+Melting point = -842150451 °C 
+V = 5572.45
+6: It is Sphere: r = 11
+Melting point = -842150451 °C 
+V = 5572.45
+7: It is Box: x = 11, y = 17, z = 21
+Melting point = -842150451 °C 
+V = 3927
+8: It is Tetraidr: a = 27
+Melting point = -842150451 °C 
+V = 3542.94
+9: It is Sphere: r = 7
+Melting point = -842150451 °C 
+V = 1436.03
 10: It is Tetraidr: a = 19
-11: It is Tetraidr: a = 3
-12: It is Tetraidr: a = 27
-13: It is Tetraidr: a = 50
->>>>>>> 2-1
-=======
-Container contains 4 elements.
-0: It is Box: x = 3, y = 4, z = 5
-melting point = 78 °C 
-1: It is Sphere: r = 7
-melting point = 1890 °C 
-2: It is Box: x = 15, y = 18, z = 25
-melting point = 122 °C 
-3: It is Sphere: r = 11
-melting point = 69 °C 
->>>>>>> 2-3
-Empty container. 
-Container contains 0 elements.
-=======
->>>>>>> 2-4
-=======
+Melting point = -842150451 °C 
+V = 1234.62
+11: It is Tetraidr: a = 18
+Melting point = -842150451 °C 
+V = 1049.76
+12: It is Box: x = 7, y = 8, z = 5
+Melting point = -842150451 °C 
+V = 280
+13: It is Tetraidr: a = 11
+Melting point = -842150451 °C 
+V = 239.58
+14: It is Box: x = 3, y = 4, z = 5
+Melting point = -842150451 °C 
+V = 60
+15: It is Tetraidr: a = 3
+Melting point = -842150451 °C 
+V = 4.86
 Only box.
-0: It is Box: x = 3, y = 4, z = 5
+0: It is Box: x = 99, y = 78, z = 12
+Melting point = -842150451 °C 
 1: 
-2: It is Box: x = 15, y = 18, z = 25
-3: 
-4: It is Box: x = 7, y = 8, z = 5
+2: 
+3: It is Box: x = 15, y = 18, z = 25
+Melting point = -842150451 °C 
+4: It is Box: x = 15, y = 18, z = 25
+Melting point = -842150451 °C 
 5: 
-6: It is Box: x = 11, y = 17, z = 21
-7: It is Box: x = 99, y = 78, z = 12
+6: 
+7: It is Box: x = 11, y = 17, z = 21
+Melting point = -842150451 °C 
+8: 
+9: 
+10: 
+11: 
+12: It is Box: x = 7, y = 8, z = 5
+Melting point = -842150451 °C 
+13: 
+14: It is Box: x = 3, y = 4, z = 5
+Melting point = -842150451 °C 
+15: 
 Empty container. 
 Container contains 0 elements.
->>>>>>> 2-5
