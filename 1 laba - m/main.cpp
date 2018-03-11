@@ -6,12 +6,11 @@ using namespace std;
 
 namespace simple_shapes {
 // Сигнатуры требуемых внешних функций
-void Init(container &c) ;
+void Init(container &c);
 void Clear(container &c);
-void In(container &c, ifstream &ifst) ;
-void Out(container &c, ofstream &ofst) ;
-void Sort(container &c) ;
-void OutBox(container &c, ofstream &ofst);
+void In(container &c, ifstream &ifst);
+void Out(container &c, ofstream &ofst);
+void MultiMethod(container &c, ofstream &ofst);
 }
 
 using namespace simple_shapes;
@@ -31,9 +30,8 @@ int main(int argc, char* argv[])
 	Init(c);
 	In(c, ifst);
     ofst << "Filled container. " << endl;
-	Sort(c);
 	Out(c, ofst);
-	OutBox(c, ofst);
+	MultiMethod(c, ofst);
 	Clear(c);
     ofst << "Empty container. " << endl;
 	Out(c, ofst);

@@ -80,45 +80,17 @@
     <ClInclude Include="conteiner.h" />
     <ClInclude Include="box_atd.h" />
     <ClInclude Include="shape_atd.h" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     <ClInclude Include="tetra_atd.h" />
->>>>>>> 2-1
-=======
->>>>>>> 2-3
-=======
-    <ClInclude Include="tetra_atd.h" />
->>>>>>> 2-4
-=======
->>>>>>> 2-5
     <ClInclude Include="share_atd.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="conteiners.cpp" />
+    <ClCompile Include="conteiner_MM.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="boxes.cpp" />
     <ClCompile Include="shapes.cpp" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     <ClCompile Include="tetras.cpp" />
->>>>>>> 2-1
-=======
->>>>>>> 2-3
-=======
-    <ClCompile Include="sort.cpp" />
-    <ClCompile Include="tetras.cpp" />
->>>>>>> 2-4
     <ClCompile Include="shares.cpp" />
-=======
-    <ClCompile Include="shares.cpp" />
-    <ClCompile Include="conteiners_out.cpp" />
->>>>>>> 2-5
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

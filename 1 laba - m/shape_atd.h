@@ -4,14 +4,12 @@
 #include "box_atd.h"
 #include "share_atd.h"
 #include "tetra_atd.h"
-
 namespace simple_shapes {
   // структура, обобщающая все имеющиеся фигуры
   struct shape {
     // значения ключей для каждой из фигур
-    enum key {BOX, SHERE};
+    enum key {BOX, SHERE, TETRA};
     key k; // ключ
-	int temp;
     // используемые альтернативы
     union { // используем включение
       box r;

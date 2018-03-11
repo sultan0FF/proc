@@ -1,15 +1,5 @@
 Filled container. 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Container contains 8 elements.
-=======
 Container contains 14 elements.
->>>>>>> 2-1
-=======
-Container contains 8 elements.
->>>>>>> 2-5
 0: It is Box: x = 3, y = 4, z = 5
 1: It is Sphere: r = 7
 2: It is Box: x = 15, y = 18, z = 25
@@ -18,41 +8,300 @@ Container contains 8 elements.
 5: It is Sphere: r = 22
 6: It is Box: x = 11, y = 17, z = 21
 7: It is Box: x = 99, y = 78, z = 12
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 8: It is Tetraidr: a = 11
 9: It is Tetraidr: a = 18
 10: It is Tetraidr: a = 19
 11: It is Tetraidr: a = 3
 12: It is Tetraidr: a = 27
 13: It is Tetraidr: a = 50
->>>>>>> 2-1
-=======
-Container contains 4 elements.
-0: It is Box: x = 3, y = 4, z = 5
-melting point = 78 °C 
-1: It is Sphere: r = 7
-melting point = 1890 °C 
-2: It is Box: x = 15, y = 18, z = 25
-melting point = 122 °C 
-3: It is Sphere: r = 11
-melting point = 69 °C 
->>>>>>> 2-3
+Multimethod.
+Box and share.
+It is Box: x = 3, y = 4, z = 5
+It is Sphere: r = 7
+Box and box.
+It is Box: x = 3, y = 4, z = 5
+It is Box: x = 15, y = 18, z = 25
+Box and share.
+It is Box: x = 3, y = 4, z = 5
+It is Sphere: r = 11
+Box and box.
+It is Box: x = 3, y = 4, z = 5
+It is Box: x = 7, y = 8, z = 5
+Box and share.
+It is Box: x = 3, y = 4, z = 5
+It is Sphere: r = 22
+Box and box.
+It is Box: x = 3, y = 4, z = 5
+It is Box: x = 11, y = 17, z = 21
+Box and box.
+It is Box: x = 3, y = 4, z = 5
+It is Box: x = 99, y = 78, z = 12
+Box and Tetraidr.
+It is Box: x = 3, y = 4, z = 5
+It is Tetraidr: a = 11
+Box and Tetraidr.
+It is Box: x = 3, y = 4, z = 5
+It is Tetraidr: a = 18
+Box and Tetraidr.
+It is Box: x = 3, y = 4, z = 5
+It is Tetraidr: a = 19
+Box and Tetraidr.
+It is Box: x = 3, y = 4, z = 5
+It is Tetraidr: a = 3
+Box and Tetraidr.
+It is Box: x = 3, y = 4, z = 5
+It is Tetraidr: a = 27
+Box and Tetraidr.
+It is Box: x = 3, y = 4, z = 5
+It is Tetraidr: a = 50
+Share and box.
+It is Sphere: r = 7
+It is Box: x = 15, y = 18, z = 25
+Share and Share.
+It is Sphere: r = 7
+It is Sphere: r = 11
+Share and box.
+It is Sphere: r = 7
+It is Box: x = 7, y = 8, z = 5
+Share and Share.
+It is Sphere: r = 7
+It is Sphere: r = 22
+Share and box.
+It is Sphere: r = 7
+It is Box: x = 11, y = 17, z = 21
+Share and box.
+It is Sphere: r = 7
+It is Box: x = 99, y = 78, z = 12
+Share and Tetraidr.
+It is Sphere: r = 7
+It is Tetraidr: a = 11
+Share and Tetraidr.
+It is Sphere: r = 7
+It is Tetraidr: a = 18
+Share and Tetraidr.
+It is Sphere: r = 7
+It is Tetraidr: a = 19
+Share and Tetraidr.
+It is Sphere: r = 7
+It is Tetraidr: a = 3
+Share and Tetraidr.
+It is Sphere: r = 7
+It is Tetraidr: a = 27
+Share and Tetraidr.
+It is Sphere: r = 7
+It is Tetraidr: a = 50
+Box and share.
+It is Box: x = 15, y = 18, z = 25
+It is Sphere: r = 11
+Box and box.
+It is Box: x = 15, y = 18, z = 25
+It is Box: x = 7, y = 8, z = 5
+Box and share.
+It is Box: x = 15, y = 18, z = 25
+It is Sphere: r = 22
+Box and box.
+It is Box: x = 15, y = 18, z = 25
+It is Box: x = 11, y = 17, z = 21
+Box and box.
+It is Box: x = 15, y = 18, z = 25
+It is Box: x = 99, y = 78, z = 12
+Box and Tetraidr.
+It is Box: x = 15, y = 18, z = 25
+It is Tetraidr: a = 11
+Box and Tetraidr.
+It is Box: x = 15, y = 18, z = 25
+It is Tetraidr: a = 18
+Box and Tetraidr.
+It is Box: x = 15, y = 18, z = 25
+It is Tetraidr: a = 19
+Box and Tetraidr.
+It is Box: x = 15, y = 18, z = 25
+It is Tetraidr: a = 3
+Box and Tetraidr.
+It is Box: x = 15, y = 18, z = 25
+It is Tetraidr: a = 27
+Box and Tetraidr.
+It is Box: x = 15, y = 18, z = 25
+It is Tetraidr: a = 50
+Share and box.
+It is Sphere: r = 11
+It is Box: x = 7, y = 8, z = 5
+Share and Share.
+It is Sphere: r = 11
+It is Sphere: r = 22
+Share and box.
+It is Sphere: r = 11
+It is Box: x = 11, y = 17, z = 21
+Share and box.
+It is Sphere: r = 11
+It is Box: x = 99, y = 78, z = 12
+Share and Tetraidr.
+It is Sphere: r = 11
+It is Tetraidr: a = 11
+Share and Tetraidr.
+It is Sphere: r = 11
+It is Tetraidr: a = 18
+Share and Tetraidr.
+It is Sphere: r = 11
+It is Tetraidr: a = 19
+Share and Tetraidr.
+It is Sphere: r = 11
+It is Tetraidr: a = 3
+Share and Tetraidr.
+It is Sphere: r = 11
+It is Tetraidr: a = 27
+Share and Tetraidr.
+It is Sphere: r = 11
+It is Tetraidr: a = 50
+Box and share.
+It is Box: x = 7, y = 8, z = 5
+It is Sphere: r = 22
+Box and box.
+It is Box: x = 7, y = 8, z = 5
+It is Box: x = 11, y = 17, z = 21
+Box and box.
+It is Box: x = 7, y = 8, z = 5
+It is Box: x = 99, y = 78, z = 12
+Box and Tetraidr.
+It is Box: x = 7, y = 8, z = 5
+It is Tetraidr: a = 11
+Box and Tetraidr.
+It is Box: x = 7, y = 8, z = 5
+It is Tetraidr: a = 18
+Box and Tetraidr.
+It is Box: x = 7, y = 8, z = 5
+It is Tetraidr: a = 19
+Box and Tetraidr.
+It is Box: x = 7, y = 8, z = 5
+It is Tetraidr: a = 3
+Box and Tetraidr.
+It is Box: x = 7, y = 8, z = 5
+It is Tetraidr: a = 27
+Box and Tetraidr.
+It is Box: x = 7, y = 8, z = 5
+It is Tetraidr: a = 50
+Share and box.
+It is Sphere: r = 22
+It is Box: x = 11, y = 17, z = 21
+Share and box.
+It is Sphere: r = 22
+It is Box: x = 99, y = 78, z = 12
+Share and Tetraidr.
+It is Sphere: r = 22
+It is Tetraidr: a = 11
+Share and Tetraidr.
+It is Sphere: r = 22
+It is Tetraidr: a = 18
+Share and Tetraidr.
+It is Sphere: r = 22
+It is Tetraidr: a = 19
+Share and Tetraidr.
+It is Sphere: r = 22
+It is Tetraidr: a = 3
+Share and Tetraidr.
+It is Sphere: r = 22
+It is Tetraidr: a = 27
+Share and Tetraidr.
+It is Sphere: r = 22
+It is Tetraidr: a = 50
+Box and box.
+It is Box: x = 11, y = 17, z = 21
+It is Box: x = 99, y = 78, z = 12
+Box and Tetraidr.
+It is Box: x = 11, y = 17, z = 21
+It is Tetraidr: a = 11
+Box and Tetraidr.
+It is Box: x = 11, y = 17, z = 21
+It is Tetraidr: a = 18
+Box and Tetraidr.
+It is Box: x = 11, y = 17, z = 21
+It is Tetraidr: a = 19
+Box and Tetraidr.
+It is Box: x = 11, y = 17, z = 21
+It is Tetraidr: a = 3
+Box and Tetraidr.
+It is Box: x = 11, y = 17, z = 21
+It is Tetraidr: a = 27
+Box and Tetraidr.
+It is Box: x = 11, y = 17, z = 21
+It is Tetraidr: a = 50
+Box and Tetraidr.
+It is Box: x = 99, y = 78, z = 12
+It is Tetraidr: a = 11
+Box and Tetraidr.
+It is Box: x = 99, y = 78, z = 12
+It is Tetraidr: a = 18
+Box and Tetraidr.
+It is Box: x = 99, y = 78, z = 12
+It is Tetraidr: a = 19
+Box and Tetraidr.
+It is Box: x = 99, y = 78, z = 12
+It is Tetraidr: a = 3
+Box and Tetraidr.
+It is Box: x = 99, y = 78, z = 12
+It is Tetraidr: a = 27
+Box and Tetraidr.
+It is Box: x = 99, y = 78, z = 12
+It is Tetraidr: a = 50
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 11
+It is Tetraidr: a = 18
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 11
+It is Tetraidr: a = 19
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 11
+It is Tetraidr: a = 3
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 11
+It is Tetraidr: a = 27
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 11
+It is Tetraidr: a = 50
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 18
+It is Tetraidr: a = 19
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 18
+It is Tetraidr: a = 3
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 18
+It is Tetraidr: a = 27
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 18
+It is Tetraidr: a = 50
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 19
+It is Tetraidr: a = 3
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 19
+It is Tetraidr: a = 27
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 19
+It is Tetraidr: a = 50
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 3
+It is Tetraidr: a = 27
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 3
+It is Tetraidr: a = 50
+Tetraidr and Tetraidr.
+Unknown type
+It is Tetraidr: a = 27
+It is Tetraidr: a = 50
 Empty container. 
 Container contains 0 elements.
-=======
->>>>>>> 2-4
-=======
-Only box.
-0: It is Box: x = 3, y = 4, z = 5
-1: 
-2: It is Box: x = 15, y = 18, z = 25
-3: 
-4: It is Box: x = 7, y = 8, z = 5
-5: 
-6: It is Box: x = 11, y = 17, z = 21
-7: It is Box: x = 99, y = 78, z = 12
-Empty container. 
-Container contains 0 elements.
->>>>>>> 2-5

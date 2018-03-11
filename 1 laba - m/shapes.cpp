@@ -15,56 +15,6 @@ namespace simple_shapes {
     shape *sp;
     int k;
     ifst >> k;
-	switch (k) {
-	case 1:
-		sp = new shape;
-		sp->k = shape::key::BOX;
-		In(sp->r, ifst);
-		return sp;
-		break;
-	case 2:
-		sp = new shape;
-		sp->k = shape::key::SHERE;
-		In(sp->t, ifst);
-		return sp;
-	case 3:
-		sp = new shape;
-		sp->k = shape::key::TETRA;
-		In(sp->f, ifst);
-		return sp;
-	default:
-		return 0;
-		ifst >> sp->temp;
-		return sp;
-	}
-
-  void Out(box &r, ofstream &ofst);
-  void Out(share  &t, ofstream &ofst);
-  void Out(tetra  &f, ofstream &ofst);
-
-
-  
-
-  double V(box &r);
-  double V(share &t);
-  double V(tetra &f);
-
-  // Вычисление обьема фигур
-
-  double V(shape &s)
-  {
-	  switch (s.k) {
-	  case shape::key::BOX:
-		  return V(s.r);
-	  case shape::key::SHERE:
-		  return V(s.t);
-	  case shape::key::TETRA:
-		  return V(s.t);
-	  default:
-		  return -1;
-	  }
-  }
-
     switch(k) {
     case 1:
       sp = new shape;
@@ -76,6 +26,11 @@ namespace simple_shapes {
       sp->k = shape::key::SHERE;
       In(sp->t, ifst);
       return sp;
+	case 3:
+	  sp = new shape;
+	  sp->k = shape::key::TETRA;
+	  In(sp->f, ifst);
+	  return sp;
     default:
       return 0;
     }
@@ -83,6 +38,7 @@ namespace simple_shapes {
 
   void Out(box &r, ofstream &ofst);
   void Out(share  &t, ofstream &ofst);
+  void Out(tetra  &f, ofstream &ofst);
 
   // Вывод параметров текущей фигуры в поток
   void Out(shape &s, ofstream &ofst) {
@@ -98,8 +54,6 @@ namespace simple_shapes {
 	  break;
     default:
       ofst << "Incorrect figure!" << endl;
-    }
-	ofst << "Melting point = " << s.temp << " °C " << endl;
     }
   }
 } // end simple_shapes namespace
