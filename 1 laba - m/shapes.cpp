@@ -1,4 +1,5 @@
 #include <fstream>
+#include <iostream>
 #include "shape_atd.h"
 #include "conteiner.h"
 
@@ -39,6 +40,8 @@ namespace simple_shapes {
 		  ifst >> sp->temp;
 		  return sp;  
   }
+
+
   void Out(box &r, ofstream &ofst);
   void Out(share  &t, ofstream &ofst);
   void Out(tetra  &f, ofstream &ofst);

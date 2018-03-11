@@ -1,6 +1,7 @@
 #include "conteiner.h"
 #include "shape_atd.h"
 #include <fstream>
+#include <iostream>
 
 using namespace std;
 
@@ -35,6 +36,7 @@ namespace simple_shapes {
     }
 
   }
+
   // Сигнатуры требуемых внешних функций
 
   void Out(shape &s, ofstream &ofst);

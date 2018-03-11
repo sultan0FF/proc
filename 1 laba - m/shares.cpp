@@ -1,13 +1,34 @@
 #include <fstream>
+#include <iostream>
 #include "share_atd.h"
 
 using namespace std;
 
 namespace simple_shapes {
-  // Ввод параметра шара из потока
+
+	bool Check(ifstream &ifst, share &t);
+	  // Ввод параметра шара из потока
   void In(share &t, ifstream &ifst) 
   {
     ifst >> t.rad;
+	Check(ifst, t);
+  }
+
+  bool Check(ifstream &ifst, share &t)
+  {
+	  if (ifst.fail()){
+		  cout << "Неверный формат!" << endl;
+		  system("pause");
+	  }
+	  else if (t.rad <= 0) {
+		  cout << "Радиус должн быть больше нуля!" << endl;
+		  system("pause");
+	  }
+	  else if (t.rad - (int)t.rad > 0){
+		  cout << "Радиус должен быть целым!" << endl;
+		  system("pause");
+	  }
+	  return 0;
   }
   // Обьем 
   double V(share &t)
